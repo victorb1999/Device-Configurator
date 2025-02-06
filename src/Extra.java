@@ -60,6 +60,7 @@ public class Extra {
 	}
 
 	private void calculateValue() {
+		this.value = 0;
 		if (this.screenProtector) {
 			this.value += this.priceScreenProtector;
 		}
