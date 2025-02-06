@@ -97,9 +97,7 @@ public class Components {
 		if (this.fastCharging) {
 			this.value += this.priceFC;
 		}
-		System.out.println(value + " value before sum");
 		this.value += this.memory * this.priceMemory + this.memoryRAM * this.priceMemoryRAM + this.priceProcessor
 				+ this.battery / 100 * this.priceBattery;
-		System.out.println(value + " value after sum");
 	}
 }
